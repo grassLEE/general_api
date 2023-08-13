@@ -7,7 +7,8 @@ api = Api(app)
 NOVELS = {
     'novel1': {'novel': 'Thud!'},
     'novel2': {'novel': 'Mort'},
-    'novel3': {'novel': 'Witches Abroad'}
+    'novel3': {'novel': 'Witches Abroad'},
+    'novel4': {'novel': 'Snuff'}
 }
 
 def abort_if_novel_doesnt_exist(novel_id):
